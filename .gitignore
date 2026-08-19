@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+data/
+raw_data/
+output/
+*.csv
+*.parquet
+*.duckdb
+.DS_Store
