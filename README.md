@@ -22,7 +22,7 @@ The project deliberately keeps **span** and **precision** separate because they 
 financial text
     -> interpretable economic dimensions
     -> information span + information precision
-    -> synthetic credit-market equilibrium
+    -> synthetic credit-market DGP
     -> interaction benchmark / optional causal forest
     -> heterogeneous effects by opacity, competition, and relationship status
 ```
@@ -31,7 +31,7 @@ financial text
 
 - deterministic offline text-to-information features;
 - optional external Transformer scoring hook;
-- synthetic lender/borrower market with endogenous loan pricing;
+- synthetic lender/borrower market with loan-pricing and selection outcomes;
 - interaction benchmark that works with NumPy/Pandas only;
 - optional `econml.CausalForestDML` wrapper;
 - no proprietary data and no dependency on Dealscan/WRDS.
